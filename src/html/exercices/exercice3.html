@@ -1,7 +1,48 @@
-Exercice 3
+<div id="exo3">
+    <h2>Exercice 3</h2>
 
-Consignes :
-- Mettre en forme l'exercice 3
-- Recopier le formulaire d'inscription précédent ci-dessous
-- Grâce au fichier style.css, mettre le texte des labels en bleu, agrandir la police dans les input texte, placer un
-bloc en position absolue à droite du champ adresse email avec un texte de votre choix en police 10px rouge.
+    <h4>Consignes :</h4>
+    <ul>
+        <li>Mettre en forme l'exercice 3</li>
+        <li>Recopier le formulaire d'inscription précédent ci-dessous</li>
+        <li>Grâce au fichier style.css, mettre le texte des labels en bleu, agrandir la police dans les input texte, placer un
+    bloc en position absolue à droite du champ adresse email avec un texte de votre choix en police 10px rouge.</li>
+    </ul>
+
+
+    <form method="post">
+        <div>
+            <label for="firstname">Prénom</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Prénom" />
+
+            <label for="lastname">Nom</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Nom" />
+        </div>
+    
+        <div class="email-container">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email"/>
+            <div class="email-tooltype">Texte à droite</div>
+        </div>
+            <label for="password">Mot de passe</label>
+            <input type="password" id="password" name="password" placeholder="Mot de passe"/>
+        <div>
+
+        </div>
+        <label for="gender-male">Homme</label>
+        <input type="radio" id="gender-male" name="gender" value="male" />
+        <br />
+        <label for="gender-female">Femme</label>
+        <input type="radio" id="gender-female" name="gender" value="female" />
+        </div>
+    
+        <div>
+        <label for="cgu">CGU</label>
+        <input type="checkbox" id="cgu" name="cgu" />
+        </div>
+    
+        <div>
+        <button type="submit">Envoyer</button>
+        </div>
+    </form>
+</div> 

@@ -1,24 +1,22 @@
-body #main-content div.box > a,
-a.special {
-  font-size: 18px;
-  font-weight: bold;
-  font-family: sans-serif;
-
-  color: #000;
-  background-color: #fff;
+#exo3 label{
+  color: blue;
 }
 
-body #main-content {
+#exo3 input[type="text"] {
+  font-size: 20px;
+}
+
+.email-container {
   position: relative;
 }
 
-body #main-content div.box > a,
-a.special {
+.email-tooltype {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  width: 100px;
-  height: 100px;
+  right:0px;
+}
 
-  display: block; /*hidden, inline, ...*/
+
+.wrapper {
+  padding-bottom: 282px;
+  padding-top:100px;
 }

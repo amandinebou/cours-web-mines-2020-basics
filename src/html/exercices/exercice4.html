@@ -1,7 +1,68 @@
-Exercice 4
+<h2>Exercice 4</h2>
 
-Consignes :
-- Recopier les exercices 1 et 2 ci-dessous
-- Les adapter pour que les 2 exercices soient sur 2 colonnes différentes sur Desktop, et sur une seule colonne sur
-Mobile
-- Adapter le formulaire pour qu'il respecte les guidelines Bootstrap sur les formulaires
+<h4>Consignes :</h4>
+
+<ul>
+    <li>Recopier les exercices 1 et 2 ci-dessous</li>
+    <li>Les adapter pour que les 2 exercices soient sur 2 colonnes différentes sur Desktop, et sur une seule colonne sur Mobile</li>
+    <li>Adapter le formulaire pour qu'il respecte les guidelines Bootstrap sur les formulaires</li>
+</ul>
+
+<div class="row">
+    <div class="col-md">
+        <table class="table table-striped">
+            <thead>
+                <th scope="col">Balise</th>
+                <th scope="col">Contenu</th>
+            </thead>
+            <tbody>
+                <tr>
+                <td>ul</td>
+                <td>li</td>
+                </tr>
+                <tr>
+                <td>table</td>
+                <td>tr, td, th</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="col-md">
+        <form method="post" class="form-group">
+            <div>
+                <label for="firstname">Prénom</label>
+                <input type="text" class="form-control" id="firstname" name="firstname" placeholder="Prénom" />
+        
+                <label for="lastname">Nom</label>
+                <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Nom" />
+            </div>
+          
+            <div>
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email"/>
+            </div>
+                <label for="password">Mot de passe</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Mot de passe"/>
+
+            <div>
+              <label for="gender-male">Homme</label>
+              <input type="radio" id="gender-male" name="gender" value="male" />
+              <br />
+              <label for="gender-female">Femme</label>
+              <input type="radio" id="gender-female" name="gender" value="female" />
+            </div>
+          
+            <div>
+              <label for="cgu" class="form-check-label">CGU</label>
+              <input type="checkbox" class="form-check-input" id="cgu" name="cgu" />
+            </div>
+          
+            <div>
+              <button type="submit" class="btn btn-primary">Envoyer</button>
+            </div>
+          </form>
+          
+    </div>
+</div>
+
